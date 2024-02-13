@@ -19,7 +19,7 @@ public class MongoConfig extends AbstractMongoClientConfiguration {
 
     @Override
     public MongoClient mongoClient() {
-        return MongoClients.create("mongodb+srv://sandeep24:sandeep24@cluster0.w0zqkcl.mongodb.net/?retryWrites=true&w=majority");
+        return MongoClients.create("update with your mongodb database link");
         // Replace <username>, <password>, <cluster>, and <database> with your MongoDB Atlas credentials and database details
     }
 
